@@ -48,12 +48,12 @@ export default {
       local: {
         endpoints: {
           login: {
-            url: "http://boomapi.weedoo.ru/api/auth/login",
+            url: "https://boomapi.weedoo.ru/api/auth/login",
             method: "post",
             propertyName: "access_token"
           },
           user: {
-            url: "http://boomapi.weedoo.ru/api/auth/me",
+            url: "https://boomapi.weedoo.ru/api/auth/me",
             method: "post",
             propertyName: ""
           },
